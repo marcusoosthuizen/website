@@ -1,0 +1,57 @@
+{{ define "main"}}
+<span class="h1" style="margin-top: 0;">Projects</span>
+<span>For the source code of all my projects, check out my <a href="https://github.com/marcusoosthuizen">GitHub</a></span>
+<div id="archive">
+  <ul class="post-list">
+  
+  {{ $pages := .Pages }}
+
+  {{ $pages = .GetPage "/tags/chrome-extension/" }}
+  {{ $pages = $pages.Pages }}
+    <h2>Chrome Extensions</h2>
+  {{ range (sort $pages "Date" "desc") }}
+    <li class="post-item">
+      <div class="meta">
+        {{ if .Param "completed" }} Completed {{ else }} {{ if .Param "ongoing" }} Ongoing {{ else }} In Progress {{ end }}{{ end }}
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a>: {{ .Description }}
+      </span>
+    </li>
+  {{ end }}
+
+  {{ $pages = .GetPage "/tags/game/" }}
+  {{ $pages = $pages.Pages }}
+    <h2>Games</h2>
+  {{ range (sort $pages "Date" "desc") }}
+    <li class="post-item">
+      <div class="meta">
+        {{ if .Param "completed" }} Completed {{ else }} {{ if .Param "ongoing" }} Ongoing {{ else }} In Progress {{ end }}{{ end }}
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a>: {{ .Description }}
+      </span>
+    </li>
+  {{ end }}
+
+  {{ $pages = .GetPage "/tags/misc/" }}
+  {{ $pages = $pages.Pages }}
+    <h2>Misc</h2>
+  {{ range (sort $pages "Date" "desc") }}
+    <li class="post-item">
+      <div class="meta">
+        {{ if .Param "completed" }} Completed {{ else }} {{ if .Param "ongoing" }} Ongoing {{ else }} In Progress {{ end }}{{ end }}
+      </div>
+      <span>    
+        <a class="" href="{{ .Permalink }}">{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a>: {{ .Description }}
+      </span>
+    </li>
+  {{ end }}
+
+
+  </ul>
+  {{ if eq .Site.Params.showAllPostsArchive false }}
+    {{ partial "pagination.html" . }}
+  {{ end }}
+</div>
+{{ end }}
