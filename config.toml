@@ -31,11 +31,6 @@ url = "https://www.youtube.com/@marcusoosthuizen"
 weight = 4
 
 [[menu.main]]
-name = "Books"
-url = "https://www.goodreads.com/marcusoosthuizen"
-weight = 5
-
-[[menu.main]]
 name = "About"
 url = "/about"
 weight = 6

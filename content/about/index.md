@@ -16,6 +16,6 @@ In my spare time I enjoy playing the piano, programming, playing nintendo games 
 | **Nineteen Eighty-Four** 	| **Waffles** 	| **Arch Linux** 	| **Machine Love** 	| **Vinland Saga** 	| **Super Mario Galaxy** 	|
 
 # Contact
-If you need to contact me for any reason you can send me an [email](mailto:email@marcusoosthuizen.com) or msg me on telegram (@marcusoosthuizen)
+If you need to contact me for any reason you can send me an [email](mailto:email@marcusoosthuizen.com)
 
 [click me to see something cool...](/something-cool)
