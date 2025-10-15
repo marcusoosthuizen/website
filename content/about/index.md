@@ -11,11 +11,11 @@ In my spare time I enjoy playing the piano, programming, playing nintendo games 
 
 # My Favourite Things
 
-|         **Book**         	|   **Food**  	|     **OS**     	|     **Song**     	|   **TV Series**  	|     **Video Game**     	|
-|:------------------------:	|:-----------:	|:--------------:	|:----------------:	|:----------------:	|:----------------------:	|
-| **Nineteen Eighty-Four** 	| **Waffles** 	| **Arch Linux** 	| **Machine Love** 	| **Vinland Saga** 	| **Super Mario Galaxy** 	|
+|         **Book**         	|   **Food**  	|      **OS**     	|     **Song**     	|   **TV Series**  	|      **Video Game**      	|
+|:------------------------:	|:-----------:	|:---------------:	|:----------------:	|:----------------:	|:------------------------: |
+| **Nineteen Eighty-Four** 	| **Waffles** 	| **Fedora Linux** 	| **Machine Love** 	| **Vinland Saga** 	| **The Binding of Issac** 	|
 
 # Contact
-If you need to contact me for any reason you can send me an [email](mailto:email@marcusoosthuizen.com)
+If you need to contact me for any reason you can send me an [email](mailto:business@marcusoosthuizen.com)
 
 [click me to see something cool...](/something-cool)
