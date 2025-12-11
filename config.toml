@@ -86,6 +86,3 @@ weight = 4
   [[params.social]]
     name = "github"
     link = "https://github.com/marcusoosthuizen"
-  [[params.social]]
-    name = "youtube"
-    link = "https://www.youtube.com/@marcusoosthuizen"
