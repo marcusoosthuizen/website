@@ -17,3 +17,5 @@ Jimmy is a Discord bot written in python that allows for a minecraft server to b
 ![](/images/projects/jimmy-bot2.webp)
 
 The bot was originally made to manage my own minecraft server, but since the source code is available ([here](https://github.com/marcusoosthuizen/jimmy-bot)), anyone can use it for their own minecraft server if they wish.
+
+*update: it now works with hytale too! Check out the github for more up to date info*
