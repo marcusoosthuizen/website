@@ -1,0 +1,62 @@
+{{ define "main"}}
+<span class="h1" style="margin-top: 0">Logs</span>
+<span
+    >This is where I track all the the media I consoom plus the countries I've
+    visited!</span
+>
+<div id="archive">
+    <ul class="post-list">
+        {{ $pages := .Pages }} {{ $pages = .GetPage "/tags/countries/" }} {{
+        $pages = $pages.Pages }}
+        <h2>Countries</h2>
+        {{ range (sort $pages "Date" "desc") }}
+        <li class="post-item">
+            <div class="meta">{{ .Param "entries" }} visited</div>
+            <span>
+                <a class="" href="{{ .Permalink }}"
+                    >{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a
+                >
+            </span>
+        </li>
+        {{ end }} {{ $pages := .Pages }} {{ $pages = .GetPage "/tags/gaming/" }}
+        {{ $pages = $pages.Pages }}
+        <h2>Gaming</h2>
+        {{ range (sort $pages "Date" "desc") }}
+        <li class="post-item">
+            <div class="meta">{{ .Param "entries" }} played</div>
+            <span>
+                <a class="" href="{{ .Permalink }}"
+                    >{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a
+                >
+            </span>
+        </li>
+        {{ end }} {{ $pages := .Pages }} {{ $pages = .GetPage "/tags/movies/" }}
+        {{ $pages = $pages.Pages }}
+        <h2>Movies</h2>
+        {{ range (sort $pages "Date" "desc") }}
+        <li class="post-item">
+            <div class="meta">{{ .Param "entries" }} watched</div>
+            <span>
+                <a class="" href="{{ .Permalink }}"
+                    >{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a
+                >
+            </span>
+        </li>
+        {{ end }} {{ $pages := .Pages }} {{ $pages = .GetPage "/tags/reading/"
+        }} {{ $pages = $pages.Pages }}
+        <h2>Reading</h2>
+        {{ range (sort $pages "Date" "desc") }}
+        <li class="post-item">
+            <div class="meta">{{ .Param "entries" }} read</div>
+            <span>
+                <a class="" href="{{ .Permalink }}"
+                    >{{ if .Title }}{{ .Title }}{{ else }} Untitled {{ end }}</a
+                >
+            </span>
+        </li>
+        {{ end }}
+    </ul>
+    {{ if eq .Site.Params.showAllPostsArchive false }} {{ partial
+    "pagination.html" . }} {{ end }}
+</div>
+{{ end }}
