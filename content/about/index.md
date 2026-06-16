@@ -27,7 +27,6 @@ I do everything on my Thinkpad T14 laptop running [Hyprland](https://hypr.land/)
 
 # Links
 ### My Stuff
-- [Email](mailto:business@marcusoosthuizen.com)
 - [GitHub](https://github.com/marcusoosthuizen)
 ### Friends
 - [Zane Fitzgerald](https://www.zanefitzgerald.com/)
