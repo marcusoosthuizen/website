@@ -16,6 +16,7 @@ Currently Playing: [Persona 5 Royal](https://www.igdb.com/games/persona-5-royal)
 
 | Game                          | System   | Score | Date  |
 |-------------------------------|----------|-------|-------|
+| [Terraria: Calamity Mod](https://www.igdb.com/games/terraria-calamity-mod)       | Steam  | 🌕🌕🌕🌑🌑 | 17/06 |
 | [Fire Emblem: Three Houses](https://www.igdb.com/games/fire-emblem-three-houses)       | Switch  | 🌕🌕🌕🌕🌗 | 26/04 |
 | [Kirby Air Riders](https://www.igdb.com/games/kirby-air-riders) (100%)       | Switch 2 | 🌕🌕🌕🌕🌑 | 04/04 |
 | [Captain Toad Treasure Tracker](https://www.igdb.com/games/captain-toad-treasure-tracker--2) | 3DS      | 🌕🌕🌗🌑🌑 | 24/02 |
