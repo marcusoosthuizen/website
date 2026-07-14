@@ -5,7 +5,7 @@ categories:
 tags:
   - gaming
 params:
-  entries: 5
+  entries: 6
 ---
 
 I've played more than these, but it would be a lot of work to list them all, so I'm starting the list from this year. Any games I complete (normally or 100%) will show up here.

@@ -1,11 +1,6 @@
 {
   "list": [
     {
-      "name":"Personal UwU",
-      "url":"/projects/personal-uwu",
-      "desc":"A chrome extension that adds pet uwu for your web browser!"
-    },
-    {
       "name":"Wojakify",
       "url":"/projects/wojakify",
       "desc":"An upcoming chrome extension that adds wojaks to your youtube feed..."
@@ -14,7 +9,12 @@
       "name":"Unnamed Raycaster",
       "url":"/projects/unnamed-raycaster",
       "desc":"An upcoming game with an old-school raycaster look."
+    },
+    {
+      "name":"LFS Build",
+      "url":"/projects/lfs",
+      "desc":"My attempt at building a working lfs system."
     }
-    
+
   ]
 }
